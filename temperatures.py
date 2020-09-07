@@ -3,7 +3,8 @@ import math
 
 # Auto-generated code below aims at helping you parse
 # the standard input according to the problem statement.
-
+# Write an answer using print
+# To debug: print("Debug messages...", file=sys.stderr, flush=True)
 n = int(input())  # the number of temperatures to analyse
 if n ==0:
     print(0)
@@ -17,7 +18,6 @@ else:
         elif abs(t)==abs(result):
             result = abs(t)
     print(result)
-# Write an answer using print
-# To debug: print("Debug messages...", file=sys.stderr, flush=True)
+
 
 
