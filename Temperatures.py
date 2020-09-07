@@ -13,7 +13,7 @@ else:
     for i in input().split():
         # t: a temperature expressed as an integer ranging from -273 to 5526
         t = int(i)
-        if abs(t)< abs(result):
+        if (abs(t)< abs(result)) or (t == result):
             result= t
         elif abs(t)==abs(result):
             result = abs(t)
